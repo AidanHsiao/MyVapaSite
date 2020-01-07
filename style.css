@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+<<<<<<< HEAD:style.css
+<<<<<<< HEAD:style.css
 
+=======
+>>>>>>> 72ed1a503703f26779caa8c3965762e84330958d:Home/style.css
+=======
+>>>>>>> 72ed1a503703f26779caa8c3965762e84330958d:Home/style.css
 /* ------------ GLOBAL VALUES ----------- */
 body {
   margin:0px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Karla',sans-serif;
   overflow-x:hidden;
   overflow-y:auto;
   top:0px;
@@ -51,6 +57,10 @@ body {
   background-image:linear-gradient(to right,#84c0e0,#90d2f5);
   z-index:1;
 }
+a {
+	text-decoration:none;
+	color:black;
+}
 .navWrapper a {
   display: inline-block;
   padding: 20px 50px;
@@ -58,6 +68,13 @@ body {
   color:white;
   text-shadow:2px 2px black;
   -webkit-transition:0.5s all;
+}
+.project {
+	-webkit-transition:0.5s all;
+}
+.project:hover {
+	background-color:#84c0e0;
+	color:white;
 }
 .navWrapper a:hover{
   color:black;
@@ -78,8 +95,24 @@ body {
 	cursor:not-allowed;
 }
 /* ------------ TITLE FORMAT ----------- */
-.title2 {
-  font-size:100px;
+.title {
+  font-size:70px;
+  margin:30px;
   text-align:center;
-  padding:50px;
   }
+.title2 {
+	color:#90d2f5;
+	font-size:100px;
+	text-shadow:1px 1px 1px black;
+}
+.project {
+	background-color:lightgray;
+}
+.resumetitle {
+	color:#90d2f5;
+	font-weight:500;
+	font-size:50px;
+	text-shadow:1px 1px 1px black;
+}
+
+
