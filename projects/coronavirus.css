@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+p {
+	font-size:25px;
+}
+.mainContent {
+	width:1280px;
+		font-family: 'Karla', sans-serif;
+	margin:auto;
+}
+.title {
+	font-size:50px;
+	text-align:center;
+}
+.column {
+  float: left;
+  width: 28.66%;
+	margin-left:2%;
+	margin-right:2%;
+	border:2px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+	text-align:center;
+}
